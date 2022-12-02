@@ -23,6 +23,11 @@ public class Day02 extends AoCInputReader {
 
         System.out.println(data);
 
+    }
+
+    private void part2() {
+        System.out.println(data);
+
         Integer sum = 0;
 
         for (String line : data) {
@@ -41,10 +46,6 @@ public class Day02 extends AoCInputReader {
         }
 
         System.out.println(sum);
-    }
-
-    private void part2() {
-
     }
 
     private Integer RockPaperScissors(String elf, String you) {
