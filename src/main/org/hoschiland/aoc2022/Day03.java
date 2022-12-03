@@ -1,6 +1,6 @@
 package org.hoschiland.aoc2022;
 
-//--- Day 2:  ---
+//--- Day 3:  ---
 // https://adventofcode.com/2022/day/3
 
 import org.hoschiland.common.AoCInputReader;
