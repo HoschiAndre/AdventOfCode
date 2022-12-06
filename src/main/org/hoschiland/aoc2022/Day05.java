@@ -136,6 +136,16 @@ public class Day05 extends AoCInputReader {
 
     private void initCrates() {
 
+//               [F] [Q]         [Q]
+//       [B]     [Q] [V] [D]     [S]
+//       [S] [P] [T] [R] [M]     [D]
+//       [J] [V] [W] [M] [F]     [J]     [J]
+//       [Z] [G] [S] [W] [N] [D] [R]     [T]
+//       [V] [M] [B] [G] [S] [C] [T] [V] [S]
+//       [D] [S] [L] [J] [L] [G] [G] [F] [R]
+//       [G] [Z] [C] [H] [C] [R] [H] [P] [D]
+//        1   2   3   4   5   6   7   8   9
+
         stacksOfCrates[0][1] = '1';
         stacksOfCrates[0][2] = '2';
         stacksOfCrates[0][3] = '3';
