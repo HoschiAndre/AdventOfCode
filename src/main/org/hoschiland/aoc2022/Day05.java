@@ -21,13 +21,40 @@ public class Day05 extends AoCInputReader {
     }
 
     List<String> data = fileToStrLines("input05.txt");
+    Character[][] stackCrates = new Character[10][10];
 
     // Reihe:Spalte
     Character[][] stacksOfCrates = new Character[100][10];
 
     private void part1() {
 
-        System.out.println(data);
+        //System.out.println(data);
+
+        initStackCrates();
+    }
+
+    private void initStackCrates() {
+
+        String stackCrates0 = data.get(0);
+        String stackCrates1 = data.get(1);
+        String stackCrates2 = data.get(2);
+        String stackCrates3  = data.get(3);
+        String stackCrates4 = data.get(4);
+        String stackCrates5 = data.get(5);
+        String stackCrates6 = data.get(6);
+        String stackCrates7 = data.get(7);
+
+
+        stackCrates[1][1] = stackCrates1.charAt(1);
+
+
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                System.out.print(stackCrates[i][j] + " ");
+            }
+
+            System.out.println();
+        }
         initCrates();
 
         for (String str : data) {
